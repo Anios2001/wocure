@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "814862574509",
+    "firebase_url": "https://wocure-4f204.firebaseio.com",
+    "project_id": "wocure-4f204",
+    "storage_bucket": "wocure-4f204.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814862574509:android:c2de7afcb5980800a0f724",
+        "android_client_info": {
+          "package_name": "com.example.wocure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814862574509-b94mcjbqfuuompnsvdhsrmcqpqsokhdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wocure",
+            "certificate_hash": "c77d88a20498521788f7c41489ff5e008ca8def6"
+          }
+        },
+        {
+          "client_id": "814862574509-74q6sv9o6pss8tngjrco4eq46eu3mfgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAktuB3bDjajkqmGvy7JGLUdTCZRzNEuBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814862574509-74q6sv9o6pss8tngjrco4eq46eu3mfgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

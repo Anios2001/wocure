@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wocure</string>
+    <string name="Mobile_no">Mobile_no</string>
+    <string name="age">age</string>
+    <string name="Emergency_no1">Emergency_no1</string>
+    <string name="Emergency_no2">Emergency_no2</string>
+    <string name="Emergency_no3">Emergency_no3</string>
+    <string name="Email_id">Email_id</string>
+    <string name="prompt_username">User Id</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Name">Name</string>
+    <string name="powered_by">"Brought to you by :-
+        LNCT GROUP OF COLLEGES"</string>
+    <string name="otp">"enter the otp here:-</string>
+    <string name="register">"No account yet ?create one"</string>
+
+</resources>

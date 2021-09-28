@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wocure_background"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    >
+    <ImageView
+        android:layout_width="@dimen/logo"
+        android:layout_height="@dimen/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/wo_cure"
+        />
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_text"
+        android:layout_marginLeft="@dimen/login_edittext_marging_left"
+        android:layout_marginRight="@dimen/login_edittext_marging_right"
+        android:hint="@string/prompt_username"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edittext_marging_top"
+        android:layout_marginLeft="@dimen/login_edittext_marging_left"
+        android:layout_marginRight="@dimen/login_edittext_marging_right"
+        android:hint="@string/prompt_password"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        />
+    <ProgressBar
+        android:id="@+id/progress_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/edittext_marging_top"
+        android:text="@string/action_sign_in"
+        android:onClick="click_login"
+
+        />
+
+    <Button
+        android:id="@+id/edt_register"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/edittext_marging_top"
+        android:text="@string/register"
+        android:onClick="click_register"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:text="@string/powered_by"
+        android:textSize="@dimen/textsize" />
+</LinearLayout>
+</ScrollView>

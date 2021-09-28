@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="login_edittext_marging_left">45dp</dimen>
+    <dimen name="login_edittext_marging_right">45dp</dimen>
+    <dimen name="edittext_marging_top">20dp</dimen>
+    <dimen name="textsize">12sp</dimen>
+    <dimen name="margin_top_text">80dp</dimen>
+    <dimen name="otp_margintop">255dp</dimen>
+    <dimen name="otp_textsize">25sp</dimen>
+    <dimen name="logo">200dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_top2">15dp</dimen>
+    <dimen name="margin_top3">20dp</dimen>
+    <dimen name="margin_top4">25dp</dimen>
+    <dimen name="margin_top5">30dp</dimen>
+    <dimen name="margin_top6">33dp</dimen>
+    <dimen name="margin_top7">36dp</dimen>
+    <dimen name="margin_top8">42dp</dimen>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wocure_background"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edittext_marging_top"
+        android:text="Edit sos numbers"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="@dimen/logo"
+        android:layout_height="@dimen/logo"
+        android:layout_gravity="center"
+        android:background="@drawable/wo_cure"
+        />
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:onClick="click_update"
+
+        />
+    <TextView
+        android:id="@+id/Show_uid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:text="@string/powered_by"
+        android:textSize="@dimen/textsize" />
+</LinearLayout>

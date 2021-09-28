@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wocure_background">
+
+    <ImageView
+        android:layout_width="@dimen/logo"
+        android:layout_height="@dimen/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/wo_cure"/>
+
+
+    <EditText
+
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Email_id"
+        android:layout_marginLeft="@dimen/login_edittext_marging_left"
+        android:layout_marginRight="@dimen/login_edittext_marging_right"
+
+
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:layout_marginLeft="@dimen/login_edittext_marging_left"
+        android:layout_marginRight="@dimen/login_edittext_marging_right"
+        android:inputType="textPassword"
+        />
+    <EditText
+
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:layout_marginLeft="@dimen/login_edittext_marging_left"
+        android:layout_marginRight="@dimen/login_edittext_marging_right"
+
+        />
+    <EditText
+        android:inputType="number"
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="age"
+        android:layout_marginLeft="@dimen/login_edittext_marging_left"
+        android:layout_marginRight="@dimen/login_edittext_marging_right"
+
+        />
+    <EditText
+        android:inputType="number"
+        android:id="@+id/mob_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mob_no"
+        android:layout_marginLeft="@dimen/login_edittext_marging_left"
+        android:layout_marginRight="@dimen/login_edittext_marging_right"
+        />
+    <EditText
+        android:inputType="number"
+        android:id="@+id/sos1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Emergency_no1"
+        android:layout_marginLeft="@dimen/login_edittext_marging_left"
+        android:layout_marginRight="@dimen/login_edittext_marging_right"
+        />
+    <EditText
+        android:inputType="number"
+        android:id="@+id/sos2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Emergency_no2"
+        android:layout_marginLeft="@dimen/login_edittext_marging_left"
+        android:layout_marginRight="@dimen/login_edittext_marging_right"
+        />
+    <EditText
+        android:inputType="number"
+        android:id="@+id/sos3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Emergency_no3"
+        android:layout_marginLeft="@dimen/login_edittext_marging_left"
+        android:layout_marginRight="@dimen/login_edittext_marging_right"
+        />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/edt_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:onClick="click"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:text="@string/powered_by"
+        android:textSize="@dimen/textsize" />
+</LinearLayout>
+</ScrollView>
