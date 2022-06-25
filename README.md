@@ -1,4 +1,4 @@
-# wocure
+# Wocure
 WocureRepo
 This project was built in order to solve the problem of 
 Women security in India. The crime against women are on the rise 
