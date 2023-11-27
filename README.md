@@ -9,6 +9,7 @@ The problem would become unstoppable if an constructive action is not taken and 
 One of the inovative initiative from the ministry was to start Hackahtons focussing on redressal of the same problem using IT Resources. We took part in Smart India Hackathon 2020 and succeeded in creating a safe environment for Women by using a strong IT Infrastructure to respond quickly, effectively and reliably when any such incident occurs.
 
 ## DETAILED ANALYSIS
+A naive and non-technical solution to above problem is that women should not go to silent places in order to stop these acts and the general concensus supports and follows this idea. Moreover, restricting Women in this ever growing world would be unethical and can impact career oppurtunities for women. So a solution is needed so that Women can feel safe in any environment alone.
 ## TECHNICAL STACK
 We were in a need of a platform which is easily available to buy and cheap in order to solve this problem for a large audience. So we decided to develop an application for the Android Platform. To develop the app we used following technical resorces:
 1. ANDROID STUDIO 4.8
