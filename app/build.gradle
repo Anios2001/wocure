@@ -21,7 +21,7 @@ android {
         debug{
              applicationVariants.all { variant ->
                 variant.outputs.all {
-                    outputFileName = "custom_app_name_debug.apk"
+                    outputFileName = "Wocure_app.apk"
                 }
             }
         }
