@@ -18,6 +18,13 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug{
+             applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "custom_app_name_debug.apk"
+                }
+            }
+        }
     }
     packagingOptions {
         exclude 'META-INF/LICENSE'
